@@ -1,10 +1,10 @@
 const querySelectAll = (attr_name) => document.querySelectorAll(attr_name);
 const querySelectOne = (attr_name) => document.querySelector(attr_name);
 let aTags = querySelectAll("a");
-AOS.init({
-  duration:700,
-  once: true
-});
+// AOS.init({
+//   duration:700,
+//   once: true
+// });
 // humberger menu ==============================================================
 const humberger_menu = querySelectOne(".hambergerMenu");
 const nav_container = querySelectOne(".navigationContainer");
