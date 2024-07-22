@@ -5,6 +5,7 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
   scrollbar-width: none;
+    overflow-x: hidden;
 }
 
 a {
